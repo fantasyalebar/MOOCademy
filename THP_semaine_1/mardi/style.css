@@ -1,0 +1,44 @@
+.navigation {
+
+display: flex; 
+justify-content: flex-end;
+}
+img
+{
+width: 20px;
+
+}
+ul li{
+
+display: inline;
+list-style: none;
+margin: 20px;
+}
+.footer{
+
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+	height:60px;
+}
+
+
+.centre
+{
+margin: auto;
+     width: 100px;
+     height: 100px; 
+margin-top: 200px ;
+justify-content: space-between;
+}
+.googlelogo{
+display: flex;
+
+     width: 180px;
+     height: 100px;
+}
+
+.submite{
+    
+     
+    }

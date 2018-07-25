@@ -1,0 +1,17 @@
+definir le nom de la fonction find_smallest_int qui prend en paramettre un tableau
+
+     smallest = 0
+	
+	pour chaque nombre dans le tableau fait un iterateur number
+ 
+
+ 	
+             si  smallest est > number 
+		smallest = number	
+
+		return smallest
+	fin
+
+
+
+

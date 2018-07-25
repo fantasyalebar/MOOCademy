@@ -1,0 +1,144 @@
+ALGORITHME <nom>
+	<déclaration...>
+DEBUT
+	<instructions...>
+fin
+
+AFFICHER("Bonjour")
+AFFICHER ("Tu as ", <variable>, " ans")
+
+
+LIRE(<variable>) 
+<variable> <- LIRE("Quel âge as tu ? ")
+
+--------------------------------------------------
+ENTIER, REEL, BOOLEEN, CARACTERE, CHAINE? TYPE_PERSONNALISE>
+
+nombre EST UN ENTIER <- 16
+PI EST UN REEL <- 3.14
+pseudo EST UNE CHAINE <- "Chuck Norris"
+age EST UN ENTIER <- 24
+
+SI age > 18 ALORS
+	AFFICHER("tu es majeur")
+SINON
+	AFFICHER("Tu es mineur")
+FIN 
+
+
+nombre EST UN ENTIER <- 64
+
+SI nombre < 0 ALORS
+	AFFICHER("Plus petit que 0")
+SINON SI nombre > 100 ALORS
+	AFFICHER("Plus grand que 100")
+SINON 
+	AFFICHER("Entre 0 et 100")
+FIN
+
+-----------------------------------------------------
+condiction multiple (switch)
+choixcalcul EST UN ENTIER <- 2
+nb1 EST UN ENTIER <- 16
+nb2 EST UN ENTIER <- 23
+
+SELON choixcalcul
+	1 : addiction(nb1, nb2)
+	2 : addiction(nb1, nb2)
+	3 : quitter_programme()
+	AUTREMENT : AFFICHER("Commande inconnue")
+FIN SELON
+
+-----------------------------------------------------
+Les Boucles (while)
+i EST UN ENTIER <- 0
+
+TANT QUE i < 10
+	AFFICHER("i = ", i)
+	i <- i +1
+	FIN TANT QUE 
+
+REPETER (do while)
+	AFFICHER("i = ", i)
+	i <- i +1
+TANT QUE i < 10 
+FIN 
+-----------------------------------------------------
+i EST UN ENTIER 
+
+POUR i ALLANT DE 0 A 10 [SAUT DE 1]
+	AFFICHER("i = ", i)
+FIN POUR
+-----------------------------------------------------
+ALGORITHMIE <nom> 
+	<déclaration...>
+DEBUT
+	<instruction...>
+FIN
+
+PROCEDURE addiction(nb1, nb2)
+	res EST UN ENTIER
+DEBUT
+ 	res <- nb1 + nb2
+ 	AFFICHER("res = ", res)
+ FIN
+-----------------------------------------------------
+FONCTION addiction(nb1, nb2)
+	res EST UN ENTIER
+DEBUT
+	res <- nb1 + nb2
+	RETOURNER res
+FIN 
+-----------------------------------------------------
+(COLLECTION)
+	choixCalcul EST UN ENTIER <- 2
+
+	SELON choixCalcul
+		1 : addiction(nb1, nb2)
+		2 : soustraction(nb1, nb2)
+		3 : quitter_programme()
+		AUTREMENT : AFFICHER("Commande inconnue")
+	FIN SELON
+-----------------------------------------------------
+(WHILE)
+i EST UN ENTIER <- 0
+
+TANT QUE i < 10
+	AFFICHER("i = ", i)
+	i <- i + 1
+FIN TANT QUE 
+
+REPETER (do while)
+	AFFICHER("i = ", i)
+	i <- i + 1
+TANT QUE i < 10
+------------------------------------------------------
+(Boucle FOR)
+i EST UN ENTIER 
+
+POUR i ALLANT DE 0 A 10 [SAUT DE 1]
+	AFFICHER	("i = ' i)
+	FIN POUR
+------------------------------------------------------
+PROCEDURE addiction(nb1, nb2)
+	res  EST UN ENTIER
+DEBUT
+	res <- nb1 + nb2
+	AFFICHER("res = ", res)
+FIN
+------------------------------------------------------
+FONCTION addiction(nb1, nb2)
+	res  EST UN ENTIER
+DEBUT
+	res <- nb1 + nb2
+	RETOURNER res
+FIN
+------------------------------------------------------
+nombre EST UN ENTIER
+
+tab_nombres EST UN TABLEAU D'ENTIERS
+tab_nombres EST UN TABLEAU D'ENTIERS [14, 26, -133]
+
+------------------------------------------------------
+liste_joueurs EST UNE LISTE DE JOUEURS
+inventaire EST UN LISTE D'ITEMS ["épée", "potion de mana"]

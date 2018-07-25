@@ -1,0 +1,28 @@
+definir le nom de la fonction positive_sum qui prend en parametres un tableau de nombres entier
+
+	somme = 0
+       pour chaque elements dans le tableau fait que
+		si le nombre est positif 
+			addictionne le et stock le dans somme
+		sinon 
+			ne l'addicitonne pas
+
+		fin
+	
+	retourne somme
+fin
+ 
+
+
+
+def positive_sum(arr)
+   sum = 0
+   arr.each do |number|
+       if number >= 0 
+          #sum += number c'est la meme
+          sum = sum + number
+       end
+   end
+   return sum
+end
+

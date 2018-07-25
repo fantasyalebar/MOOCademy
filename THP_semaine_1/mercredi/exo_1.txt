@@ -1,0 +1,16 @@
+
+Combien y a t'il de journalistes dans cet array ? 379
+Combien d'handle contiennent un numéro ?
+Combien d'handle contiennent les 4 lettres du prénom "Aude" à la suite (sans faire attention à la casse) ?
+Combien commencent par une majuscule ?
+Combien contiennent une majuscule ?
+Combien de _ dans tous les pseudos confondus ?
+Trie la liste de handle par ordre alphabétique
+
+CHAINE => STRING
+
+SOUS CHAINE => SUBSTRING
+
+COMMENT VERIFIER SI UN NOMBRE EST PRESENTE DANS UNE CHAINE
+
+HOW TO CHECK/ VERIFY IF A STRING CONTAINS A NUMBER IN RUBY

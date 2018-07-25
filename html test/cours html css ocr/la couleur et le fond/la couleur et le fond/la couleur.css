@@ -1,0 +1,36 @@
+
+body
+{
+
+	background-image: url("hebus.jpg");
+    
+
+}
+
+
+
+h1
+{
+
+border: 3px black solid;
+
+}
+
+p
+{
+ 
+ color: #0000b3;
+font-size: 1.5em;
+}
+
+/* opacity: rendre transparent le texte 0 à 1 /*
+/* rgba   : exemple (255,0,0,0.5); /*
+/* scroll : l'image de fond défile avec le texte (par défaut)/*
+/* fixed : l'image de fond reste fixe /*
+ /* background-repeat /* 
+ /* :hover:  apparence au survol des liens */
+ /* text-decoration */
+ /* :active  quand le visiteur clique sur le lien */
+ /* :focus :quand le visiteur selectionne le lien */
+ /* :visited : quand le visiteur a déja vu la page concernée */
+ 

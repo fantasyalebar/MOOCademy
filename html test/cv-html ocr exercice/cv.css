@@ -1,0 +1,54 @@
+h1 , h2 ,h3
+{
+
+color: red;
+
+}
+
+
+h1
+{
+
+   
+	text-align: center;
+
+}
+
+.flottant
+{
+
+ 	float: right;
+ box-shadow: 10px 6px 10px black; 
+}
+
+p
+{
+
+	text-align: center;
+    border: 2px blue solid ;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('police/Roboto-Medium-webfont.eot');
+    src: url('police/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Roboto-Medium-webfont.woff2') format('woff2'),
+         url('police/Roboto-Medium-webfont.woff') format('woff'),
+         url('police/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('police/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul
+{
+font-family: "robotomedium" ,"arial", "impact";
+
+}
+
+body
+{
+background-image: url("image-cv/hebus.jpg");
+
+}
